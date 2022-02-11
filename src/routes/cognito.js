@@ -3,6 +3,7 @@ export async function post({ request }) {
 	console.log(body);
 
 	return {
-		status: 200
+		status: 200,
+		body
 	};
 }
